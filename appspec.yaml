@@ -1,0 +1,6 @@
+version: 1.0
+build:
+  commands:
+    - pip install --upgrade pip
+run:
+  command: python3 -m http.server 8080
